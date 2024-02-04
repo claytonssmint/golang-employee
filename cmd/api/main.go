@@ -16,7 +16,7 @@ import (
 
 func main() {
 
-	db, err := sqlx.Connect("postgres", "user=postgres password=devclay18 dbname=db_employee sslmode=disable")
+	db, err := sqlx.Connect("postgres", "user=postgres password=0000000 dbname=db_name sslmode=disable")
 
 	if err = db.Ping(); err != nil {
 		fmt.Println(err)
